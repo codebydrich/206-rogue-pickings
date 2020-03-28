@@ -207,3 +207,30 @@ footer span {
 	}
 
 }
+
+@media all and (min-width: 1200px) {
+
+	header {
+		display: flex;
+		justify-content: flex-end;
+		align-items: flex-end;
+		flex-flow: row;
+	}
+
+	header h1, nav {
+		max-width: 1200px;
+		width: 50%;
+	}
+
+	header nav {
+		border: none;
+		padding: 38px 0 19px 0;
+		display: flex;
+		justify-content: flex-end;
+		align-items: flex-end;
+	}
+
+	header nav ul li {
+		display: inline;
+	}
+}
