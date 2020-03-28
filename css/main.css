@@ -178,20 +178,32 @@ footer span {
 }
 
 @media all and (min-width: 768px) {
+
+	.bottom-section {
+		display: flex;
+		align-items: flex-start;
+	}
+
+	.section-one, .section-two, .section-three {
+		width: 33%;
+		overflow: auto;
+	}
+	
 	.section-two {
 		border-left: 1px solid #eee;
 		border-right: 1px solid #eee;
 	}
-	.section-two h4,
-	.section-three h4 {
-		padding: 10px 30px;
+
+	.section-two p, .section-three p {
+		padding: 0 30px;
 	}
+	
 	.section-one h4 {
 		padding: 10px 0;
 	}
 	
-	
+	.section-two h4, .section-three h4 {
+		padding: 10px 30px;
+	}
 
-	
-	
 }
