@@ -185,6 +185,7 @@ footer span {
 
 	header {
 		justify-content: space-between;
+		padding: 2% 0;
 	}
 
 	header h1 {
